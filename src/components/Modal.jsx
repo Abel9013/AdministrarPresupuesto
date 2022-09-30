@@ -7,7 +7,8 @@ const Modal = ({
     animarModal, 
     setAnimarModal,  
     guardarGasto, 
-    gastoEditar
+    gastoEditar,
+    setGastoEditar
 }) => {
 
     const [mensaje, setMensaje] = useState('')
